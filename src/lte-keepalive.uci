@@ -1,0 +1,13 @@
+config config
+	option enabled '1'
+	option ping_target '8.8.8.8'
+	option ping_count '10'
+	option ping_interval '5'
+	option loss_threshold '60'
+	option max_failed_cycles '3'
+	option qmi_device '/dev/cdc-wdm0'
+	option apn ''
+	option username ''
+	option password ''
+	option pincode ''
+
